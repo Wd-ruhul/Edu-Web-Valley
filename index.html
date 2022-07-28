@@ -227,10 +227,49 @@
       </section>
 
       <!-- Ready To Join start -->
-        <section class="container">
+        <section class="container bg-primary my-5 p-5 rounded-3">
           <div class="row">
-            <div class="col">
+            <div class="col-lg-8 col-md-12 text-white">
+              <h2>Ready To Join</h2>
+              <p>It is a long established fact that a reader will be distracted by the 
+                readable content of a page when looking at its layout</p>
+            </div>
+            <div class="col-lg-4 p-5 d-flex justify-content-center align-items-center">
+              <div><button class="btn bg-white rounded-2 text-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button></div>
               
+    <!-- Modal Form Start -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Enter Your Data</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="name" class="col-form-label">Name:</label>
+                          <input type="text" class="form-control" id="name">
+                          <label for="email" class="col-form-label">Email:</label>
+                          <input type="email" class="form-control" id="email">
+                          <label for="Number" class="col-form-label">Contact Number:</label>
+                          <input type="number" class="form-control" id="Number">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Registration</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    <!-- Modal Form End -->
+
             </div>
           </div>
         </section>
